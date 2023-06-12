@@ -1,0 +1,89 @@
+{
+  "name": "viterjs-template",
+  "version": "1.1.7",
+  "description": "React + Vite + Redux + Antd + axios  + Prettier",
+  "license": "MIT",
+  "author": "emrecil <info.emrecil@gmail.com>",
+  "keywords": [
+    "react",
+    "tailwindcss",
+    "javaScript",
+    "vite",
+    "redux",
+    "antd",
+    "axios",
+    "prettier"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emre-cil/viterjs-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emre-cil/viterjs-template/issues"
+  },
+  "homepage": "https://github.com/emre-cil/viterjs-template#readme",
+  "scripts": {
+    "dev": "vite --open --host ",
+    "start": "vite --open",
+    "host": "vite --open --host",
+    "build:dev": "vite build --mode development",
+    "build:test": "vite build --mode test",
+    "build:prod": "vite build --mode production",
+    "preview": "vite preview",
+    "lint:eslint": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "lint:prettier": "prettier --write --loglevel warn \"src/**/*.{js,ts,json,tsx,css,less,scss,html,md}\"",
+    "format+lint": "prettier \"src/**/*.{js,jsx,ts,tsx,css,scss}\" --write && eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:cover": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@ant-design/charts": "^1.4.2",
+    "@ant-design/icons": "^5.0.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@reduxjs/toolkit": "^1.9.3",
+    "antd": "^5.3.1",
+    "axios": "^1.3.4",
+    "copy-to-clipboard": "^3.3.3",
+    "dayjs": "^1.11.1",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.1",
+    "react-transition-group": "^4.4.5",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2",
+    "screenfull": "^6.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "^3.2.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "msw": "^1.1.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.1.4",
+    "vite-plugin-fonts": "^0.7.0",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vitest": "^0.29.1"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
