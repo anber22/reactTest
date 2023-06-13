@@ -52,11 +52,11 @@ function Login() {
               'margin-bottom': '16px',
             }}
           >
-            {/* <img
-              src="@/assets/icons/check-circle.svg"
+            <img
+              src="/src/assets/icons/check-circle.svg"
               style={{ 'margin-right': '6px' }}
               alt=""
-            /> */}
+            />
             Professionally Refurbished
           </p>
           <p
@@ -69,11 +69,11 @@ function Login() {
               'margin-bottom': '16px',
             }}
           >
-            {/* <img
-              src="@/assets/icons/file-text.svg"
+            <img
+              src="/src/assets/icons/file-text.svg"
               style={{ 'margin-right': '6px' }}
               alt=""
-            /> */}
+            />
             Clean IMEI
           </p>
           <p
@@ -86,11 +86,11 @@ function Login() {
               'margin-bottom': '16px',
             }}
           >
-            {/* <img
-              src="@/assets/icons/activity.svg"
+            <img
+              src="/src/assets/icons/activity.svg"
               style={{ 'margin-right': '6px' }}
               alt=""
-            /> */}
+            />
             Fully Functional
           </p>
           <p
@@ -102,11 +102,11 @@ function Login() {
               'margin-bottom': '16px',
             }}
           >
-            {/* <img
-              src="@/assets/icons/award.svg"
+            <img
+              src="/src/assets/icons/award.svg"
               style={{ width: '15px', height: '15px', 'margin-right': '6px' }}
               alt=""
-            /> */}
+            />
             30-Day Money Back Guarantee
           </p>
         </div>
@@ -149,11 +149,11 @@ function Login() {
         style={{ backgroundColor: 'white', padding: '24px' }}
       >
         <div className="flex justify-center">
-          {/* <img
+          <img
             style={{ width: '250px', height: '250px' }}
-            src="src/assets/images/apple-iphone-13.png"
+            src="https://d3c745jesl5pj3.cloudfront.net/sell/web/apple-iphone-13_0ca6a448189d48638c7299e4ee362508_250_a7efbe7789434c3da3388dee51392fdd.webp"
             alt=""
-          /> */}
+          />
         </div>
 
         <div
@@ -666,11 +666,11 @@ function Login() {
               }}
             >
               Data From
-              {/* <img
+              <img
                 style={{ width: '80px', height: '11px' }}
                 src="https://uptradeit.com/svg/reviewsio-logo.svg"
                 alt=""
-              /> */}
+              />
             </div>
             <div style={{ 'font-size': '12px', color: '#6d7278' }}>
               4.54 Rating based ons
