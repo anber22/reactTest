@@ -149,11 +149,11 @@ function Login() {
         style={{ backgroundColor: 'white', padding: '24px' }}
       >
         <div className="flex justify-center">
-          <img
+          {/* <img
             style={{ width: '250px', height: '250px' }}
             src="src/assets/images/apple-iphone-13.png"
             alt=""
-          />
+          /> */}
         </div>
 
         <div
