@@ -151,7 +151,7 @@ function Login() {
         <div className="flex justify-center">
           <img
             style={{ width: '250px', height: '250px' }}
-            src="https://d3c745jesl5pj3.cloudfront.net/sell/web/apple-iphone-13_0ca6a448189d48638c7299e4ee362508_250_a7efbe7789434c3da3388dee51392fdd.webp"
+            src="@/assets/images/apple-iphone-13.png"
             alt=""
           />
         </div>
