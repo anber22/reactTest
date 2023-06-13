@@ -53,7 +53,7 @@ function Login() {
             }}
           >
             <img
-              src="/src/assets/icons/check-circle.svg"
+              src="@/assets/icons/check-circle.svg"
               style={{ 'margin-right': '6px' }}
               alt=""
             />
@@ -70,7 +70,7 @@ function Login() {
             }}
           >
             <img
-              src="/src/assets/icons/file-text.svg"
+              src="@/assets/icons/file-text.svg"
               style={{ 'margin-right': '6px' }}
               alt=""
             />
@@ -87,7 +87,7 @@ function Login() {
             }}
           >
             <img
-              src="/src/assets/icons/activity.svg"
+              src="@/assets/icons/activity.svg"
               style={{ 'margin-right': '6px' }}
               alt=""
             />
@@ -103,7 +103,7 @@ function Login() {
             }}
           >
             <img
-              src="/src/assets/icons/award.svg"
+              src="@/assets/icons/award.svg"
               style={{ width: '15px', height: '15px', 'margin-right': '6px' }}
               alt=""
             />
