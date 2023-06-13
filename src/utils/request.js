@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { message } from 'antd';
 import { useDispatch } from 'react-redux';
-import { randomHash } from './utils';
+// import { randomHash } from '@/utils/index';
 import { ResultCode } from '@/config/http';
 import { getToken } from '@/utils/auth';
 import { userLoginOut } from '@/store/modules/user';
@@ -31,7 +31,7 @@ Axios.interceptors.request.use(
       ...config,
       headers: {
         ...config.headers,
-        'trace-id': randomHash(),
+        // 'trace-id': randomHash(),
         Authorization,
       },
     };

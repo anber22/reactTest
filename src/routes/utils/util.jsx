@@ -32,7 +32,7 @@ export const lazyLoad = (Comp) => (
  * @returns menu
  */
 export const getModules = () => {
-  const modules = import.meta.glob('/src/views/modules/**/*.jsx');
+  const modules = import.meta.glob('@/views/modules/**/*.jsx');
   const menu = {};
   Object.keys(modules).forEach((item) => {
     const arr = item.substring(0, item.indexOf('.jsx')).split('/');

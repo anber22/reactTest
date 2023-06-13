@@ -1,6 +1,6 @@
 import { rest } from 'msw';
-import { dataResponse } from './response';
-import { routers, loginData, userInfo } from './data';
+import { dataResponse } from '@/response';
+import { routers, loginData, userInfo } from '@/data';
 
 const login = [
   rest.post('/auth/custom/authorize', (req, res, ctx) =>

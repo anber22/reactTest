@@ -374,4 +374,18 @@ video {
 [hidden] {
   display: none;
 }
-
+.flex{
+  display: flex;
+}
+.flex-col{
+  flex-direction: column;
+}
+.flex-1{
+  flex: 1;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.justify-center{
+  justify-content: center;
+}

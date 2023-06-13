@@ -6,8 +6,7 @@ import zhCN from 'antd/locale/zh_CN';
 import dayjs from 'dayjs';
 import useRouteList from '@/routes/utils/useRouteList';
 import AuthRouter from '@/routes/utils/authRouter';
-import { checkTheme } from '@/store/modules/layout';
-import Settings from '@/layout/src/common/Settings';
+// import { checkTheme } from '@/store/modules/layout';
 import 'dayjs/locale/zh-cn';
 
 dayjs.locale('zh-cn');
@@ -38,7 +37,7 @@ function App() {
       );
       document.documentElement.classList.add('bg-gray-50', 'text-black');
     }
-    dispatch(checkTheme(algorithm));
+    // dispatch(checkTheme(algorithm));
   }, [algorithm]);
   return (
     <>
@@ -55,7 +54,7 @@ function App() {
           </AuthRouter>
         </Router>
       </ConfigProvider>
-      {import.meta.env.MODE === 'development' ? <Settings /> : null}
+      {/* {import.meta.env.MODE === 'development' ? <Settings /> : null} */}
     </>
   );
 }

@@ -32,7 +32,7 @@ function Login() {
     <div
       className="h-full"
       style={{
-        background: `url(/src/assets/login/${
+        background: `url(@/assets/login/${
           algorithm !== 'darkAlgorithm' ? 'light' : 'dark'
         }.png) no-repeat`,
         backgroundSize: '100% 100%',

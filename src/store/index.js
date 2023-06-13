@@ -2,12 +2,12 @@ import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import storage from 'redux-persist/lib/storage';
 import { persistReducer, persistStore } from 'redux-persist';
 import thunk from 'redux-thunk';
-import user from './modules/user';
-import permission from './modules/permission';
-import tagsViews from './modules/tagsViews';
-import menu from './modules/menu';
-import layout from './modules/layout';
-import theme from './modules/theme';
+import user from '@/store/modules/user';
+import permission from '@/store/modules/permission';
+import tagsViews from '@/store/modules/tagsViews';
+import menu from '@/store/modules/menu';
+import layout from '@/store/modules/layout';
+import theme from '@/store/modules/theme';
 
 const persistConfig = {
   key: 'root',
