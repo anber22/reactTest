@@ -151,7 +151,7 @@ function Login() {
         <div className="flex justify-center">
           <img
             style={{ width: '250px', height: '250px' }}
-            src="@/assets/images/apple-iphone-13.png"
+            src="src/assets/images/apple-iphone-13.png"
             alt=""
           />
         </div>
