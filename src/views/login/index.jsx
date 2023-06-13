@@ -52,11 +52,11 @@ function Login() {
               'margin-bottom': '16px',
             }}
           >
-            <img
+            {/* <img
               src="@/assets/icons/check-circle.svg"
               style={{ 'margin-right': '6px' }}
               alt=""
-            />
+            /> */}
             Professionally Refurbished
           </p>
           <p
@@ -69,11 +69,11 @@ function Login() {
               'margin-bottom': '16px',
             }}
           >
-            <img
+            {/* <img
               src="@/assets/icons/file-text.svg"
               style={{ 'margin-right': '6px' }}
               alt=""
-            />
+            /> */}
             Clean IMEI
           </p>
           <p
@@ -86,11 +86,11 @@ function Login() {
               'margin-bottom': '16px',
             }}
           >
-            <img
+            {/* <img
               src="@/assets/icons/activity.svg"
               style={{ 'margin-right': '6px' }}
               alt=""
-            />
+            /> */}
             Fully Functional
           </p>
           <p
@@ -102,11 +102,11 @@ function Login() {
               'margin-bottom': '16px',
             }}
           >
-            <img
+            {/* <img
               src="@/assets/icons/award.svg"
               style={{ width: '15px', height: '15px', 'margin-right': '6px' }}
               alt=""
-            />
+            /> */}
             30-Day Money Back Guarantee
           </p>
         </div>
@@ -666,11 +666,11 @@ function Login() {
               }}
             >
               Data From
-              <img
+              {/* <img
                 style={{ width: '80px', height: '11px' }}
                 src="https://uptradeit.com/svg/reviewsio-logo.svg"
                 alt=""
-              />
+              /> */}
             </div>
             <div style={{ 'font-size': '12px', color: '#6d7278' }}>
               4.54 Rating based ons
